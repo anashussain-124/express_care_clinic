@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useCallback, useState } from "react";
+import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   Activity,
@@ -147,12 +148,19 @@ interface ModalProps {
 }
 
 function ConditionModal({ condition, onClose }: ModalProps) {
+  const [mounted, setMounted] = useState(false);
+
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
     },
     [onClose]
   );
+
+  // Only mount portal on client
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (condition) {
@@ -165,7 +173,11 @@ function ConditionModal({ condition, onClose }: ModalProps) {
     };
   }, [condition, handleKeyDown]);
 
-  return (
+  // Render nothing on SSR; portal needs document.body
+  if (!mounted) return null;
+
+  // Portal to document.body so `overflow-x-hidden` on <main> can't clip fixed children
+  return createPortal(
     <AnimatePresence>
       {condition && (
         <>
@@ -176,7 +188,7 @@ function ConditionModal({ condition, onClose }: ModalProps) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm"
+            className="fixed inset-0 z-[9999] bg-slate-950/70 backdrop-blur-sm"
             onClick={onClose}
             aria-hidden="true"
           />
@@ -191,7 +203,7 @@ function ConditionModal({ condition, onClose }: ModalProps) {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.92, y: 24 }}
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none"
+            className="fixed inset-0 z-[9999] flex items-center justify-center p-4 pointer-events-none"
           >
             <div
               className="relative bg-white rounded-3xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto pointer-events-auto"
@@ -248,7 +260,8 @@ function ConditionModal({ condition, onClose }: ModalProps) {
           </motion.div>
         </>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 }
 
@@ -376,7 +389,7 @@ export default function AdvancedTreatmentsSection() {
         </div>
       </section>
 
-      {/* Modal (portal-like, rendered at end of section tree) */}
+      {/* Modal — portalled to document.body to escape overflow-x-hidden on <main> */}
       <ConditionModal
         condition={activeCondition}
         onClose={() => setActiveCondition(null)}
