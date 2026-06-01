@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import TrustSection from "@/components/TrustSection";
 import AboutSection from "@/components/AboutSection";
 import DoctorSection from "@/components/DoctorSection";
-import ServicesSection from "@/components/ServicesSection";
+import AdvancedTreatmentsSection from "@/components/AdvancedTreatmentsSection";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
@@ -18,7 +18,7 @@ export default function Home() {
       <TrustSection />
       <AboutSection />
       <DoctorSection />
-      <ServicesSection />
+      <AdvancedTreatmentsSection />
       <WhyChooseUsSection />
       <TestimonialsSection />
       <ContactSection />
