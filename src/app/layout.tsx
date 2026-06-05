@@ -14,17 +14,17 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://expresscarechiropractic.in"),
+  metadataBase: new URL("https://www.chiropractornearme.in"),
   title: "Chiropractor in Hyderabad | Express Care Clinic",
   description: "Top-rated chiropractor in Hyderabad. Express Care Clinic provides expert treatments for back pain, sciatica, neck pain, and spine care.",
   keywords: "Chiropractor in Hyderabad, Back Pain Treatment Hyderabad, Sciatica Treatment Hyderabad, Neck Pain Treatment Hyderabad, Spine Care Hyderabad, Frozen Shoulder Treatment Hyderabad",
   alternates: {
-    canonical: "https://expresscarechiropractic.in",
+    canonical: "https://www.chiropractornearme.in",
   },
   openGraph: {
     title: "Chiropractor in Hyderabad | Express Care Clinic",
     description: "Top-rated chiropractor in Hyderabad. Express Care Clinic provides expert treatments for back pain, sciatica, neck pain, and spine care.",
-    url: "https://expresscarechiropractic.in",
+    url: "https://www.chiropractornearme.in",
     siteName: "Express Care Clinic",
     images: [
       {
@@ -58,14 +58,14 @@ export default function RootLayout({
   const schema = {
     "@context": "https://schema.org",
     "@type": ["MedicalClinic", "LocalBusiness"],
-    "name": "Express Care Chiropractic Clinic",
-    "image": "https://expresscarechiropractic.in/hero_premium_clinic.png",
-    "@id": "https://expresscarechiropractic.in",
-    "url": "https://expresscarechiropractic.in",
+    "name": "Express Care Chiropractic & Wellness Support Centre",
+    "image": "https://www.chiropractornearme.in/hero_premium_clinic.png",
+    "@id": "https://www.chiropractornearme.in",
+    "url": "https://www.chiropractornearme.in",
     "telephone": "+91-9999999999", // Placeholder, will update if user provides
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Toli Chowki",
+      "streetAddress": "SS Function Hall Lane, Meraj Colony, Tolichowki",
       "addressLocality": "Hyderabad",
       "addressRegion": "TS",
       "postalCode": "500008",

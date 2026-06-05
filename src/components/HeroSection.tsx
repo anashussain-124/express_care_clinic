@@ -60,7 +60,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-lg md:text-xl text-white/80 max-w-3xl mb-4 font-light"
         >
-          Holistic Solutions for Back Pain, Spine Health, Sciatica & Wellness in Hyderabad.
+          <span className="font-semibold text-white">YOU DON'T HAVE TO LIVE IN PAIN.</span> Holistic Solutions for Back Pain, Spine Health, Sciatica & Wellness in Hyderabad.
         </motion.p>
         
         <motion.p
@@ -70,7 +70,7 @@ export default function HeroSection() {
           className="text-md md:text-lg text-accent-light font-medium max-w-2xl mb-10 flex items-center justify-center gap-2"
         >
           <ShieldCheck size={20} />
-          80% of patients experience pain relief from the very first session.
+          100% PAIN RELIEF IN FIRST SESSION
         </motion.p>
 
         {/* CTAs */}

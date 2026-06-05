@@ -29,13 +29,12 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          {/* Logo Placeholder */}
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-white font-heading font-bold text-xl shadow-lg">
             EC
           </div>
           <div className="flex flex-col">
-            <span className={clsx("font-heading font-bold text-lg leading-tight", isScrolled ? "text-slate-800" : "text-white")}>Express Care</span>
-            <span className={clsx("text-xs tracking-wider uppercase font-medium", isScrolled ? "text-primary" : "text-accent")}>Chiropractic</span>
+            <span className={clsx("font-heading font-bold text-lg leading-tight uppercase", isScrolled ? "text-slate-800" : "text-white")}>Express Care</span>
+            <span className={clsx("text-[10px] sm:text-xs tracking-wider uppercase font-semibold", isScrolled ? "text-primary" : "text-accent")}>Chiropractic & Wellness Support Centre</span>
           </div>
         </div>
 

@@ -40,7 +40,7 @@ export default function ContactSection() {
                   <div>
                     <h3 className="text-sm text-slate-400 mb-1">Location</h3>
                     <p className="text-lg font-medium leading-relaxed max-w-sm">
-                      4-61/98, Miraj Colony Rd, Salarjung Colony, Miraj Colony, Toli Chowki, Hyderabad, Telangana 500008
+                      SS Function Hall Lane, Meraj Colony, Tolichowki, Hyd - 08.
                     </p>
                   </div>
                 </div>

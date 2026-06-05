@@ -14,7 +14,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-bold text-lg leading-tight text-white">Express Care</span>
-                <span className="text-xs tracking-wider uppercase font-medium text-primary">Chiropractic</span>
+                <span className="text-xs tracking-wider uppercase font-medium text-primary">Chiropractic & Wellness Support Centre</span>
               </div>
             </div>
             <p className="text-sm text-slate-400 mb-6 leading-relaxed">
@@ -66,7 +66,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="text-primary mt-1 flex-shrink-0" size={18} />
-                <span className="text-sm text-slate-400">4-61/98, Miraj Colony Rd, Salarjung Colony, Miraj Colony, Toli Chowki, Hyderabad, Telangana 500008</span>
+                <span className="text-sm text-slate-400">SS Function Hall Lane, Meraj Colony, Tolichowki, Hyd - 08.</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-primary flex-shrink-0" size={18} />
