@@ -7,6 +7,7 @@ import AdvancedTreatmentsSection from "@/components/AdvancedTreatmentsSection";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
+import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import MobileBookingBar from "@/components/MobileBookingBar";
 
@@ -21,6 +22,7 @@ export default function Home() {
       <AdvancedTreatmentsSection />
       <WhyChooseUsSection />
       <TestimonialsSection />
+      <FAQSection />
       <ContactSection />
       <Footer />
       <MobileBookingBar />

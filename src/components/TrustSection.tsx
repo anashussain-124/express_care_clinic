@@ -30,7 +30,7 @@ export default function TrustSection() {
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white text-primary transition-colors duration-300">
                   <Icon size={24} />
                 </div>
-                <h3 className="text-3xl font-heading font-bold text-slate-800 mb-1">{stat.value}</h3>
+                <p className="text-3xl font-heading font-bold text-slate-800 mb-1">{stat.value}</p>
                 <p className="text-sm font-semibold text-primary mb-1">{stat.name}</p>
                 <p className="text-xs text-slate-500">{stat.desc}</p>
               </motion.div>

@@ -28,7 +28,7 @@ export default function ContactSection() {
                     <Phone size={24} />
                   </div>
                   <div>
-                    <h4 className="text-sm text-slate-400 mb-1">Call Us</h4>
+                    <h3 className="text-sm text-slate-400 mb-1">Call Us</h3>
                     <a href="tel:+917330933851" className="text-xl font-bold hover:text-accent transition-colors">+91 73309 33851</a>
                   </div>
                 </div>
@@ -38,7 +38,7 @@ export default function ContactSection() {
                     <MapPin size={24} />
                   </div>
                   <div>
-                    <h4 className="text-sm text-slate-400 mb-1">Location</h4>
+                    <h3 className="text-sm text-slate-400 mb-1">Location</h3>
                     <p className="text-lg font-medium leading-relaxed max-w-sm">
                       4-61/98, Miraj Colony Rd, Salarjung Colony, Miraj Colony, Toli Chowki, Hyderabad, Telangana 500008
                     </p>
@@ -50,7 +50,7 @@ export default function ContactSection() {
                     <Clock size={24} />
                   </div>
                   <div>
-                    <h4 className="text-sm text-slate-400 mb-1">Working Hours</h4>
+                    <h3 className="text-sm text-slate-400 mb-1">Working Hours</h3>
                     <p className="text-lg font-medium">Open Daily</p>
                     <p className="text-sm text-slate-300">Closes at 11:00 PM</p>
                   </div>

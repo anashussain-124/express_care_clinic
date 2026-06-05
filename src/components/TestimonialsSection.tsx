@@ -90,7 +90,7 @@ export default function TestimonialsSection() {
                   {review.name.charAt(0)}
                 </div>
                 <div>
-                  <h4 className="font-bold text-slate-900">{review.name}</h4>
+                  <h3 className="font-bold text-slate-900">{review.name}</h3>
                   <p className="text-xs text-slate-500">Verified Patient</p>
                 </div>
               </div>

@@ -42,7 +42,7 @@ export default function AboutSection() {
                 <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center text-white">
                   <Activity size={20} />
                 </div>
-                <h4 className="font-heading font-bold text-slate-800">Advanced Care</h4>
+                <p className="font-heading font-bold text-slate-800">Advanced Care</p>
               </div>
               <p className="text-sm text-slate-600">State-of-the-art non-surgical spine treatments.</p>
             </motion.div>
@@ -75,7 +75,7 @@ export default function AboutSection() {
                   <Heart size={20} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-slate-800">Personalized Approach</h4>
+                  <h3 className="font-bold text-slate-800">Personalized Approach</h3>
                   <p className="text-sm text-slate-600">Tailored treatment plans for every patient.</p>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function AboutSection() {
                   <Activity size={20} />
                 </div>
                 <div>
-                  <h4 className="font-bold text-slate-800">Fast Relief</h4>
+                  <h3 className="font-bold text-slate-800">Fast Relief</h3>
                   <p className="text-sm text-slate-600">80% feel better after just one session.</p>
                 </div>
               </div>

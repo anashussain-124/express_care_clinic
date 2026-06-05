@@ -119,6 +119,7 @@ export default function HeroSection() {
         href="https://wa.me/917330933851"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp"
         className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.5)] hover:scale-110 transition-transform flex items-center justify-center"
       >
         <MessageCircle size={32} />

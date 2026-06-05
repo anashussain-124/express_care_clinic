@@ -21,10 +21,10 @@ export default function Footer() {
               Premium non-surgical chiropractic and holistic wellness solutions in Hyderabad. Experience true healing and pain relief.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+              <a href="#" aria-label="Visit our website" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                 <Globe size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+              <a href="#" aria-label="Send us an email" className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                 <Mail size={18} />
               </a>
             </div>
@@ -32,7 +32,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-bold mb-6 font-heading tracking-wide">Quick Links</h4>
+            <h2 className="text-white font-bold mb-6 font-heading tracking-wide text-lg">Quick Links</h2>
             <ul className="space-y-3">
               {['Home', 'About Clinic', 'Treatments', 'Patient Stories', 'Contact Us'].map((link) => (
                 <li key={link}>
@@ -47,7 +47,7 @@ export default function Footer() {
 
           {/* Treatments */}
           <div>
-            <h4 className="text-white font-bold mb-6 font-heading tracking-wide">Top Treatments</h4>
+            <h2 className="text-white font-bold mb-6 font-heading tracking-wide text-lg">Top Treatments</h2>
             <ul className="space-y-3">
               {['Back & Neck Pain', 'Sciatica Relief', 'Disc Bulge Treatment', 'Frozen Shoulder', 'Scoliosis Care'].map((link) => (
                 <li key={link}>
@@ -62,7 +62,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-white font-bold mb-6 font-heading tracking-wide">Contact Us</h4>
+            <h2 className="text-white font-bold mb-6 font-heading tracking-wide text-lg">Contact Us</h2>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="text-primary mt-1 flex-shrink-0" size={18} />
