@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Activity, Bone, Waves, HeartPulse, Brain, Zap, Syringe, Wind, AlertTriangle } from "lucide-react";
+import { Activity, Bone, Waves, HeartPulse, Brain, Zap, Syringe, Wind, AlertTriangle, Droplets, ShieldPlus } from "lucide-react";
 
 const services = [
   { title: "Back Pain", icon: Activity, desc: "Targeted spinal adjustments to alleviate lower and upper back pain." },
@@ -15,7 +15,15 @@ const services = [
   { title: "Knee & Hip Pain", icon: Activity, desc: "Joint mobilization for lower extremity pain relief." },
   { title: "Migraine", icon: Brain, desc: "Reduce frequency and severity of headaches and migraines." },
   { title: "Ulcerative Colitis", icon: AlertTriangle, desc: "Holistic nervous system support for digestive conditions." },
-  { title: "Gangrene Mgt", icon: Syringe, desc: "Supportive holistic care to improve circulation and wellness." },
+  { title: "Gangrene Management", icon: Syringe, desc: "Supportive holistic care to improve circulation and wellness." },
+  { title: "Hernia", icon: ShieldPlus, desc: "Gentle therapeutic care to support structural recovery and strength." },
+  { title: "Kidney Stones", icon: Droplets, desc: "Holistic strategies to aid natural passing and pain management." },
+  { title: "Gallbladder Stones", icon: ShieldPlus, desc: "Comprehensive support to improve digestive function and wellness." },
+  { title: "Knee Treatment", icon: Bone, desc: "Advanced therapies for chronic knee pain and mobility issues." },
+  { title: "Arthritis", icon: Activity, desc: "Joint care focused on reducing inflammation and restoring movement." },
+  { title: "Liver Diseases", icon: ShieldPlus, desc: "Holistic health approaches aimed at optimizing organ function." },
+  { title: "Jaw Adjustment", icon: Brain, desc: "Targeted TMJ treatments to resolve jaw pain and clicking." },
+  { title: "Piles (Hemorrhoids)", icon: AlertTriangle, desc: "Non-invasive holistic support to relieve pressure and discomfort." }
 ];
 
 export default function ServicesSection() {

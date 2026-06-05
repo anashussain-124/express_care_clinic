@@ -37,97 +37,141 @@ const conditions: Condition[] = [
     shortDesc: "Targeted spinal adjustments to alleviate lower and upper back pain.",
     icon: Activity,
     imgUrl: "https://images.unsplash.com/photo-1598257006626-48b0c252070d?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Back pain is one of the most common musculoskeletal complaints worldwide, affecting people of all ages and lifestyles. It can range from a dull, constant ache to a sudden, sharp sensation that makes movement difficult. Common causes include poor posture, muscle strain, herniated discs, or degenerative spinal changes. Chiropractic care addresses the root cause by performing targeted spinal adjustments that restore proper vertebral alignment and relieve pressure on nerves and soft tissues. Complementary therapies such as soft-tissue massage, rehabilitative exercises, and postural counselling are integrated to accelerate recovery. With a personalised treatment plan, most patients experience significant pain relief and improved mobility within a few sessions.",
+    longDesc: "Back pain is one of the most common musculoskeletal complaints worldwide, affecting people of all ages and lifestyles. It can range from a dull, constant ache to a sudden, sharp sensation that makes movement difficult. Chiropractic care addresses the root cause by performing targeted spinal adjustments that restore proper vertebral alignment and relieve pressure on nerves and soft tissues."
   },
   {
     title: "Neck Pain",
     shortDesc: "Gentle alignment for stiffness and chronic neck discomfort.",
     icon: PersonStanding,
     imgUrl: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Neck pain and stiffness are increasingly prevalent due to prolonged screen time, poor ergonomics, and stress-related muscle tension. Left untreated, chronic neck discomfort can lead to headaches, shoulder tightness, and even radiating arm pain. Our chiropractors perform gentle cervical manipulation and mobilisation techniques to restore normal joint movement and reduce muscular spasm. Soft-tissue therapies including trigger-point release and myofascial decompression complement the adjustments by addressing surrounding musculature. Patients also receive guidance on ergonomic corrections and therapeutic stretches to sustain the improvements achieved during clinic visits, helping prevent recurrence.",
+    longDesc: "Neck pain and stiffness are increasingly prevalent due to prolonged screen time, poor ergonomics, and stress-related muscle tension. Left untreated, chronic neck discomfort can lead to headaches, shoulder tightness, and even radiating arm pain. Our chiropractors perform gentle cervical manipulation and mobilisation techniques to restore normal joint movement and reduce muscular spasm."
   },
   {
     title: "Sciatica",
     shortDesc: "Relieve nerve pressure causing radiating pain down the legs.",
     icon: Zap,
     imgUrl: "https://images.unsplash.com/photo-1616279969862-cf7a78a15ed5?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Sciatica is characterised by sharp, burning, or shooting pain that travels along the sciatic nerve — from the lower back through the buttock and down one or both legs. It is most commonly caused by a herniated disc, bone spur, or spinal stenosis compressing the nerve root. Chiropractic spinal decompression and targeted lumbar adjustments reduce the mechanical pressure responsible for nerve irritation, providing relief without surgery or opioid medication. Soft-tissue work around the piriformis and gluteal muscles further releases nerve entrapment at secondary sites. Most patients notice a progressive reduction in leg pain and improved walking tolerance, with long-term results supported by core-strengthening rehabilitation.",
+    longDesc: "Sciatica is characterised by sharp, burning, or shooting pain that travels along the sciatic nerve — from the lower back through the buttock and down one or both legs. Chiropractic spinal decompression and targeted lumbar adjustments reduce the mechanical pressure responsible for nerve irritation, providing relief without surgery or opioid medication."
   },
   {
     title: "Disc Bulge",
     shortDesc: "Non-surgical decompression for herniated or bulging discs.",
     icon: Bone,
     imgUrl: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "A disc bulge or herniation occurs when the soft inner nucleus of an intervertebral disc pushes outward through a weakened annulus, potentially pressing on adjacent spinal nerves. Symptoms range from localised back pain to radiating pain, numbness, or weakness in the limbs. Non-surgical spinal decompression therapy — delivered with precision on a specialised traction table — gently distracts the vertebrae to create negative intradiscal pressure, encouraging the disc to retract toward its normal position. Chiropractic adjustments restore vertebral alignment and improve biomechanics around the affected segment. Combined with therapeutic exercise and lifestyle modifications, this approach achieves lasting relief for the majority of patients.",
+    longDesc: "A disc bulge or herniation occurs when the soft inner nucleus of an intervertebral disc pushes outward through a weakened annulus, potentially pressing on adjacent spinal nerves. Non-surgical spinal decompression therapy gently distracts the vertebrae to create negative intradiscal pressure, encouraging the disc to retract toward its normal position."
   },
   {
     title: "Frozen Shoulder",
     shortDesc: "Restore mobility and reduce pain in the shoulder joint.",
     icon: HeartPulse,
     imgUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Frozen shoulder, clinically known as adhesive capsulitis, involves progressive stiffening and painful restriction of the glenohumeral joint due to inflammation and thickening of the joint capsule. It commonly develops after an injury, surgery, or prolonged immobility, and can severely limit overhead and rotational movements. Chiropractic care employs joint mobilisation and manipulation techniques to stretch the contracted capsule and restore functional range of motion. Instrument-assisted soft-tissue mobilisation (IASTM) and therapeutic ultrasound are used to break down adhesions and stimulate tissue remodelling. A structured home-exercise programme accelerates recovery and prevents the fibrotic process from recurring.",
+    longDesc: "Frozen shoulder, clinically known as adhesive capsulitis, involves progressive stiffening and painful restriction of the glenohumeral joint due to inflammation and thickening of the joint capsule. Chiropractic care employs joint mobilisation and manipulation techniques to stretch the contracted capsule and restore functional range of motion."
   },
   {
     title: "Scoliosis",
     shortDesc: "Management and structural alignment for spinal curvature.",
     icon: Waves,
     imgUrl: "https://images.unsplash.com/photo-1530026454774-5c4bde7ee131?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Scoliosis is an abnormal lateral curvature of the spine, most often diagnosed during adolescence but also occurring in adults due to degenerative changes. Mild to moderate curves can cause muscle imbalances, postural distortion, back pain, and in severe cases, compromise breathing. Chiropractic management focuses on halting curve progression, reducing compensatory muscle tension, and improving overall spinal biomechanics through specific adjusting techniques and postural retraining. Mirror-image exercises and customised orthotics address the three-dimensional nature of the deformity. While chiropractic care does not surgically straighten the spine, consistent treatment can meaningfully improve function, reduce pain, and support quality of life.",
+    longDesc: "Scoliosis is an abnormal lateral curvature of the spine. Chiropractic management focuses on halting curve progression, reducing compensatory muscle tension, and improving overall spinal biomechanics through specific adjusting techniques and postural retraining to support quality of life."
   },
   {
     title: "Sinus Issues",
     shortDesc: "Chiropractic adjustments to promote proper sinus drainage.",
     icon: Wind,
     imgUrl: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Chronic sinus congestion and recurrent sinusitis often have an overlooked neurological component: tension in the upper cervical spine and cranial sutures can impair lymphatic drainage and nerve signalling to the sinus cavities. Gentle chiropractic adjustments to the cervical vertebrae and cranial bones help restore proper nerve tone and facilitate drainage of the frontal, ethmoid, and maxillary sinuses. Patients frequently report reduced frequency of sinus infections, clearer nasal passages, and lessened headache pressure following a course of treatment. This holistic approach complements, rather than replaces, conventional ENT management and is particularly valuable for patients seeking to reduce dependence on decongestants and antibiotics.",
+    longDesc: "Chronic sinus congestion and recurrent sinusitis often have an overlooked neurological component. Gentle chiropractic adjustments to the cervical vertebrae and cranial bones help restore proper nerve tone and facilitate drainage of the frontal, ethmoid, and maxillary sinuses."
   },
   {
     title: "Asthma",
     shortDesc: "Nervous system optimisation to support respiratory health.",
     icon: Flame,
     imgUrl: "https://images.unsplash.com/photo-1506126279646-a697353d3166?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "While chiropractic care is not a cure for asthma, emerging evidence supports its role as a valuable adjunct in managing respiratory conditions. Misalignments in the thoracic spine (mid-back) can create neurological interference that increases bronchial hyperreactivity and reduces the efficiency of the respiratory muscles. Thoracic spinal adjustments aim to restore normal nerve supply to the lungs and diaphragm, potentially reducing the frequency and severity of asthma attacks. Improved spinal mobility also allows for greater thoracic expansion, supporting deeper, more efficient breathing. Patients report complementary benefits such as reduced reliance on rescue inhalers and improved exercise tolerance when chiropractic is incorporated into a comprehensive respiratory management plan.",
+    longDesc: "Misalignments in the thoracic spine can create neurological interference that affects the respiratory system. Thoracic spinal adjustments aim to restore normal nerve supply to the lungs and diaphragm, potentially reducing the frequency of asthma attacks and supporting deeper breathing."
   },
   {
     title: "Knee & Hip Pain",
     shortDesc: "Joint mobilisation for lower extremity pain relief.",
     icon: CircleDot,
     imgUrl: "https://images.unsplash.com/photo-1571019613576-2b22c76fd955?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Knee and hip pain frequently stem from biomechanical dysfunction higher in the kinetic chain — pelvic imbalance, sacroiliac joint restriction, or altered gait patterns can place excessive stress on the lower extremity joints. Chiropractic evaluation identifies these upstream contributing factors and addresses them through adjustments and soft-tissue therapies. Direct mobilisation of the knee or hip joint is performed where indicated to reduce intra-articular inflammation and restore normal joint mechanics. Rehabilitative exercises targeting the gluteal and quadriceps musculature provide dynamic stabilisation, reducing load on the cartilage and ligaments. This integrated approach benefits patients with osteoarthritis, IT band syndrome, bursitis, and post-surgical stiffness alike.",
+    longDesc: "Knee and hip pain frequently stem from biomechanical dysfunction higher in the kinetic chain. Direct mobilisation of the knee or hip joint is performed where indicated to reduce intra-articular inflammation, restore normal joint mechanics, and alleviate load on the cartilage."
   },
   {
     title: "Migraine",
     shortDesc: "Reduce frequency and severity of headaches and migraines.",
     icon: Brain,
     imgUrl: "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Migraines are debilitating neurological events characterised by intense, often one-sided headache, nausea, and sensitivity to light and sound. Suboccipital muscle tension, restricted upper cervical joints, and altered trigeminal nerve signalling are key peripheral triggers frequently managed through chiropractic care. Cervical adjustments and soft-tissue release of the suboccipital region reduce the sensitisation of pain pathways, helping lower both the frequency and intensity of migraine episodes. Lifestyle factors — including hydration, screen time, sleep posture, and stress — are addressed holistically to minimise trigger exposure. Clinical studies show that patients receiving regular chiropractic care often reduce their reliance on prescription migraine medications over time.",
+    longDesc: "Suboccipital muscle tension and restricted upper cervical joints are key peripheral triggers for migraines. Cervical adjustments and soft-tissue release reduce the sensitisation of pain pathways, helping lower both the frequency and intensity of migraine episodes."
   },
   {
     title: "Ulcerative Colitis",
     shortDesc: "Holistic nervous system support for digestive conditions.",
     icon: Droplets,
     imgUrl: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Ulcerative colitis is a chronic inflammatory bowel condition causing abdominal pain, diarrhoea, and fatigue. The autonomic nervous system — particularly the vagus nerve — plays a critical role in regulating gut motility, immune response, and mucosal integrity. Chiropractic adjustments to the thoracic and lumbar spine aim to reduce interference in the autonomic nerve supply to the gastrointestinal tract, potentially modulating the inflammatory cascade. While chiropractic is not a standalone treatment for IBD, it can be a meaningful complementary therapy that reduces pain, improves nervous system tone, and supports overall wellbeing alongside medical management. Patients often report improved digestive comfort, reduced stress, and better sleep quality.",
+    longDesc: "The autonomic nervous system plays a critical role in regulating gut motility and immune response. Chiropractic adjustments to the thoracic and lumbar spine aim to reduce interference in the nerve supply to the gastrointestinal tract, serving as a complementary therapy that reduces pain and improves nervous system tone."
   },
   {
-    title: "Gangrene Mgt",
+    title: "Gangrene Management",
     shortDesc: "Supportive holistic care to improve circulation and wellness.",
     icon: Stethoscope,
     imgUrl: "https://images.unsplash.com/photo-1666214280557-f1b5022eb634?auto=format&fit=crop&w=800&q=80",
-    longDesc:
-      "Supportive chiropractic and holistic care plays an adjunctive role in the broader management of peripheral vascular disease and conditions affecting tissue perfusion, including post-debridement care in gangrene management. Impairments in the lumbar and sacral spine can interfere with sympathetic nerve pathways governing blood vessel tone in the lower extremities. Gentle chiropractic techniques aim to improve autonomic nervous system balance, promoting vasodilation and enhanced microcirculation to compromised tissues. Nutritional counselling, lymphatic drainage massage, and stress management strategies are integrated to support the body's natural healing capacity. This supportive holistic approach is always implemented in close collaboration with the patient's medical team to ensure comprehensive, coordinated care.",
+    longDesc: "Impairments in the spine can interfere with sympathetic nerve pathways governing blood vessel tone. Gentle chiropractic techniques aim to improve autonomic nervous system balance, promoting vasodilation and enhanced microcirculation to compromised tissues as a supportive adjunct therapy."
   },
+  {
+    title: "Hernia",
+    shortDesc: "Therapeutic care supporting structural recovery.",
+    icon: Activity,
+    imgUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+    longDesc: "A hernia involves tissue protruding through a weak spot in the abdominal muscle wall. While surgery is often required, holistic care and specialized postural adjustments can help reduce core pressure, support surrounding musculature, and optimize recovery during rehabilitation."
+  },
+  {
+    title: "Kidney Stones",
+    shortDesc: "Holistic strategies to aid natural passing and pain management.",
+    icon: Droplets,
+    imgUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+    longDesc: "Kidney stones can cause severe lower back and flank pain. Chiropractic adjustments targeting the lower thoracic and lumbar spine help optimize nerve supply to the renal system, promoting better organ function and providing natural pain relief while the stone passes."
+  },
+  {
+    title: "Gallbladder Stones",
+    shortDesc: "Comprehensive support to improve digestive function and wellness.",
+    icon: CircleDot,
+    imgUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+    longDesc: "Gallstones form when bile hardens in the gallbladder, often causing sharp right-sided pain. Enhancing the nerve communication between the spine and the digestive organs through precise adjustments can help support better biliary function and reduce associated referred back pain."
+  },
+  {
+    title: "Knee Treatment",
+    shortDesc: "Advanced therapies for chronic knee pain and mobility issues.",
+    icon: Bone,
+    imgUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+    longDesc: "Knee issues often result from tracking problems, arthritis, or ligament strain. We utilize targeted joint mobilization, soft tissue therapy, and corrective exercises to restore proper alignment, reduce inflammation, and significantly improve range of motion in the knee."
+  },
+  {
+    title: "Arthritis",
+    shortDesc: "Joint care focused on reducing inflammation and restoring movement.",
+    icon: Activity,
+    imgUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+    longDesc: "Arthritis leads to chronic joint stiffness, swelling, and reduced mobility. Gentle chiropractic adjustments combined with customized mobility exercises help keep joints fluid, minimize progressive degeneration, and provide safe, drug-free pain management for arthritic patients."
+  },
+  {
+    title: "Liver Diseases",
+    shortDesc: "Holistic health approaches aimed at optimizing organ function.",
+    icon: Stethoscope,
+    imgUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+    longDesc: "The liver depends on a robust nerve supply from the mid-back to function optimally. Correcting spinal subluxations in the thoracic region improves neurological communication to the hepatic system, supporting the liver's natural detoxification and regenerative processes."
+  },
+  {
+    title: "Jaw Adjustment",
+    shortDesc: "Targeted TMJ treatments to resolve jaw pain and clicking.",
+    icon: Brain,
+    imgUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+    longDesc: "Temporomandibular joint (TMJ) disorders cause jaw pain, clicking, and tension headaches. Specialized chiropractic techniques adjust the jaw alignment, release surrounding muscle tension, and correct related upper-cervical spine issues to restore normal, pain-free chewing and speaking."
+  },
+  {
+    title: "Piles (Hemorrhoids)",
+    shortDesc: "Non-invasive holistic support to relieve pelvic pressure.",
+    icon: Droplets,
+    imgUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
+    longDesc: "Piles are swollen veins in the lower rectum often exacerbated by increased pelvic pressure and poor blood flow. Adjusting the sacrum and pelvis can improve the structural alignment and nerve function in the pelvic region, promoting better vascular tone and reducing discomfort."
+  }
 ];
 
 /* ─────────────────────────────────────
