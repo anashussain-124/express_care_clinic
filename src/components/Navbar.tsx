@@ -43,7 +43,7 @@ export default function Navbar() {
           {["About", "Treatments", "Testimonials", "Contact"].map((item) => (
             <a
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={`/#${item.toLowerCase()}`}
               className={clsx(
                 "text-sm font-medium transition-colors hover:text-accent",
                 isScrolled ? "text-slate-600" : "text-white/90"
@@ -95,7 +95,7 @@ export default function Navbar() {
             {["About", "Treatments", "Testimonials", "Contact"].map((item) => (
               <a
                 key={item}
-                href={`#${item.toLowerCase()}`}
+                href={`/#${item.toLowerCase()}`}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-slate-700 font-medium p-2 border-b border-slate-50"
               >

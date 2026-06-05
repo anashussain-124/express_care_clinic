@@ -49,14 +49,36 @@ export default function Footer() {
           <div>
             <h2 className="text-white font-bold mb-6 font-heading tracking-wide text-lg">Top Treatments</h2>
             <ul className="space-y-3">
-              {['Back & Neck Pain', 'Sciatica Relief', 'Disc Bulge Treatment', 'Frozen Shoulder', 'Scoliosis Care'].map((link) => (
-                <li key={link}>
-                  <a href="#treatments" className="text-sm hover:text-primary transition-colors flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-primary/50" />
-                    {link}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a href="/back-pain-treatment-hyderabad" className="text-sm hover:text-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/50" />
+                  Back Pain Treatment
+                </a>
+              </li>
+              <li>
+                <a href="/neck-pain-treatment-hyderabad" className="text-sm hover:text-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/50" />
+                  Neck Pain Treatment
+                </a>
+              </li>
+              <li>
+                <a href="/sciatica-treatment-hyderabad" className="text-sm hover:text-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/50" />
+                  Sciatica Relief
+                </a>
+              </li>
+              <li>
+                <a href="/slipped-disc-treatment-hyderabad" className="text-sm hover:text-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/50" />
+                  Slipped Disc Care
+                </a>
+              </li>
+              <li>
+                <a href="/chiropractic-adjustment-hyderabad" className="text-sm hover:text-primary transition-colors flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-primary/50" />
+                  Chiropractic Adjustment
+                </a>
+              </li>
             </ul>
           </div>
 
