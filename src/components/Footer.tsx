@@ -9,8 +9,9 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center text-white font-heading font-bold text-xl shadow-lg">
-                EC
+              <div className="w-10 h-10 rounded-full bg-white shadow-lg overflow-hidden flex items-center justify-center border-2 border-white">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/icon.png" alt="Express Care Clinic Logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-bold text-lg leading-tight text-white">Express Care</span>
